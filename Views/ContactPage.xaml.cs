@@ -6,7 +6,7 @@ public partial class ContactPage : ContentPage
 {
 	public ContactPage()
 	{
-		InitializeComponent();
+        InitializeComponent();
 
         List<Contact> contacts = new List<Contact>()
         {
@@ -17,15 +17,8 @@ public partial class ContactPage : ContentPage
             new Contact { Name="Larry", Email = "larry9@gmail.com"},
 
         };
-        //List<string> contacts = new List<string>()
-        //{
-        //    "Hardeep Singh",
-        //    "Narinder Singh",
-        //    "Akshit Kapoor",
-        //    "Satvir Singh",
-        //    "Nikhil Gautam"
-        //};
-            listContacts.ItemsSource = contacts;        
+        
+        listContacts.ItemsSource = contacts;        
     }
 
     public class Contact 
