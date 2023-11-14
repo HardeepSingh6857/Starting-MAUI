@@ -12,3 +12,5 @@ public partial class EditContactPage : ContentPage
         Shell.Current.GoToAsync("..");
     }
 }
+//hii hardeep I am akshit
+//gi 

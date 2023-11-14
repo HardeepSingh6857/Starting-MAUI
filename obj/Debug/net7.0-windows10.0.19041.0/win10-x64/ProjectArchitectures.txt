@@ -1,1 +1,1 @@
-C:\Users\iharr\Desktop\Aspire Fox\MAUI\Contacts.csproj;x64
+C:\Users\GOD\source\repos\MAUI Demo\Contacts.csproj;x64
