@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contacts.Views.ContactPage"
              Title="Contact">
+<<<<<<< HEAD
     <ListView
         x:Name="listContacts"
         BackgroundColor="Transparent"
@@ -17,4 +18,14 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
+=======
+    <VerticalStackLayout Spacing="5">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="btnEditContact" Clicked="btnEditContact_Clicked" Text="Edit Contact"/>
+        <Button x:Name="btnAddContact" Clicked="btnAddContact_Clicked" Text="Add Contact"/>
+    </VerticalStackLayout>
+>>>>>>> 86c9954686415a9563c2037f8501b69f32300c15
 </ContentPage>
